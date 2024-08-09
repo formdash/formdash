@@ -1,0 +1,32 @@
+{
+  "name": "formdash",
+  "version": "0.0.1",
+  "description": "This is a full stack form, we provide a form library which embed on react project and this form have backend for user can watch data from our dashboard ",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/formdash/formdash.git"
+  },
+  "keywords": [
+    "npm",
+    "dashboad",
+    "form",
+    "contact",
+    "api",
+    "backend",
+    "fronend",
+    "react",
+    "next",
+    "js"
+  ],
+  "author": "Rajib Sadhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/formdash/formdash/issues"
+  },
+  "homepage": "https://github.com/formdash/formdash#readme"
+}
