@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import "./styles.css";
+
 const ContactForm = ({
   phone,
   name = true,

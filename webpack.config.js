@@ -1,8 +1,8 @@
 import path from 'path';
 
 export default {
-  mode: 'development', // Change to 'production' for production builds
-  entry: './src/index.js', // Set the entry point to src/index.js
+  mode: 'development', // or 'production'
+  entry: './src/index.js',
   output: {
     path: path.resolve('dist'),
     filename: 'index.js',
