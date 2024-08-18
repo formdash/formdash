@@ -10,6 +10,7 @@ const ContactForm = ({ phone, name = true, email = true, message = true }) => {
   });
 
   const [errors, setErrors] = useState({});
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
