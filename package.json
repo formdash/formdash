@@ -1,6 +1,6 @@
 {
   "name": "formdash",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This is a full stack form, we provide a form library which embed on react project and this form have backend for user can watch data from our dashboard",
   "type": "module",
   "main": "dist/index.js",
