@@ -1,11 +1,11 @@
 {
-  "name": "form-dash",
+  "name": "formdash",
   "version": "0.0.2",
-  "description": "This is a full stack form, we provide a form library which embed on react project and this form have backend for user can watch data from our dashboard ",
+  "description": "This is a full stack form, we provide a form library which embed on react project and this form have backend for user can watch data from our dashboard",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,11 @@
   "bugs": {
     "url": "https://github.com/formdash/formdash/issues"
   },
-  "homepage": "https://github.com/formdash/formdash#readme"
+  "homepage": "https://github.com/formdash/formdash#readme",
+  "dependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7"
+  }
 }
