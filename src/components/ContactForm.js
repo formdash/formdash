@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 
-const ContactForm = ({ phone, name = true, email = true, message = true }) => {
+const ContactForm = ({
+  phone,
+  name = true,
+  email = true,
+  message = true,
+  formData,
+}) => {
   const [formDetails, setFormDetails] = useState({
     name: "",
     email: "",
     phone: "",
     message: "",
-    formData,
   });
 
   const [errors, setErrors] = useState({});
-  
 
   const handleSubmit = (e) => {
     e.preventDefault();
