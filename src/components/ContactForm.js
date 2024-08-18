@@ -1,11 +1,11 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import {formData} from "../utils/formData.js"
 
 const ContactForm = ({
   phone,
   name = true,
   email = true,
   message = true,
-  formData,
 }) => {
   const [formDetails, setFormDetails] = useState({
     name: "",
