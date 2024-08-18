@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {formData} from "../utils/formData.js"
+import { formData } from "../utils/formData.js";
 
 const ContactForm = ({
   phone,
