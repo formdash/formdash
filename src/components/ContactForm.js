@@ -1,17 +1,12 @@
 import React, { useState } from "react";
-import { formData } from "../utils/formData.js";
 
-const ContactForm = ({
-  phone,
-  name = true,
-  email = true,
-  message = true,
-}) => {
+const ContactForm = ({ phone, name = true, email = true, message = true }) => {
   const [formDetails, setFormDetails] = useState({
     name: "",
     email: "",
     phone: "",
     message: "",
+    formData,
   });
 
   const [errors, setErrors] = useState({});
@@ -40,8 +35,7 @@ const ContactForm = ({
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      formData(formDetails);
-      //   console.log(formDetails);
+      if (formData) formData(formDetails);
     }
   };
 
