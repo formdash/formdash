@@ -1,6 +1,6 @@
-import { ContactForm } from '@formdash/react';
+import { ContactForm } from 'formdash';
 
-// Local smoke test for @formdash/react against the dev backend.
+// Local smoke test for formdash against the dev backend.
 // Replace the key with any active organization's public key.
 const PUBLIC_KEY = 'fd_live_cc762db010bddceca93f0e5d2159e5fc';
 const API_URL = 'http://localhost:5000/api/v1';

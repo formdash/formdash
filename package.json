@@ -1,5 +1,5 @@
 {
-  "name": "@formdash/react",
+  "name": "formdash",
   "version": "0.1.0",
   "description": "Drop-in React contact form. Managed mode posts submissions to FormDash — no backend needed.",
   "keywords": [

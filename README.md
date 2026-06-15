@@ -1,11 +1,11 @@
-# @formdash/react
+# formdash
 
 Drop-in React contact form. In **managed mode** submissions go straight to your [FormDash](https://formdash.io) dashboard — your site needs **no backend, no database, no email setup**.
 
 ## Install
 
 ```bash
-npm install @formdash/react
+npm install formdash
 ```
 
 Requires React 18+.
@@ -15,7 +15,7 @@ Requires React 18+.
 Create an organization in your FormDash dashboard, copy its public key, and drop the form anywhere:
 
 ```tsx
-import { ContactForm } from '@formdash/react';
+import { ContactForm } from 'formdash';
 
 export default function ContactPage() {
   return <ContactForm publicKey="fd_live_xxxxxxxxxxxxxxxx" />;

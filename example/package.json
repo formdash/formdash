@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@formdash/react": "file:..",
+    "formdash": "file:..",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
