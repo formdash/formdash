@@ -2,7 +2,12 @@
   "name": "@formdash/react",
   "version": "0.1.0",
   "description": "Drop-in React contact form. Managed mode posts submissions to FormDash — no backend needed.",
-  "keywords": ["react", "contact-form", "form", "formdash"],
+  "keywords": [
+    "react",
+    "contact-form",
+    "form",
+    "formdash"
+  ],
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -15,7 +20,10 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
@@ -30,5 +38,10 @@
     "react": "^19.1.0",
     "tsup": "^8.4.0",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.4.0",
+    "react-hook-form": "^7.79.0",
+    "zod": "^4.4.3"
   }
 }
